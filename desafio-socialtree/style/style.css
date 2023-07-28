@@ -8,12 +8,12 @@
 }
 
 :root {
-    --body-bg-color: #0A0903;
+    --body-bg-color: #353531;
     --border-link: #FF8200;
-    --border-photo: #ff000090;
+    --border-photo: #ffff0090;
     --color-font: #FFC100;
     --color-icons: #ffe9ae;
-    --background-hover: #e9e9e936;
+    --background-hover: #e9e9e921;
 
     --font-family: 'Poppins', sans-serif;
 }
@@ -70,6 +70,22 @@ ul li a:hover{
     border: 2px solid var(--border-photo);
     background-color: var(--background-hover);
 }
+
+div#social-links{
+    display: flex;
+    justify-content: center;
+
+    padding: 24px 0;
+
+    font-size: 24px;
+}
+
+#social-links a{
+    padding: 16px;
+
+    color: var(--color-icons);
+}
+
 
 
 

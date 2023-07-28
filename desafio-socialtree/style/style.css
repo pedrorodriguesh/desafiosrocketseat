@@ -10,9 +10,10 @@
 :root {
     --body-bg-color: #0A0903;
     --border-link: #FF8200;
-    --border-photo: #FF0000;
+    --border-photo: #ff000090;
     --color-font: #FFC100;
-    --color-icons: #FFEAAE;
+    --color-icons: #ffe9ae;
+    --background-hover: #e9e9e936;
 
     --font-family: 'Poppins', sans-serif;
 }
@@ -22,18 +23,55 @@ body{
     color: var(--color-font);
 }
 
-div#foto{
+div#container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+#foto{
     text-align: center;
-    margin-top: 150px;
+}
+
+#foto img{
+    width: 213px;
+    border: 3px solid var(--border-link);
+    border-radius: 50%;
+}
+
+#container ul{
+    text-align: center;
+    list-style-type: none;
+
+    margin-top: 25px;
     
 }
 
-div#foto img{
-    width: 213px;
-    height: 213px;
-    border: 3px solid var(--border-link);
-    border-radius: 50%;
-    
+ul li a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 16px 24px;
+
+    width: 312px;
+
+
+    border: 2px solid var(--border-link);
+
+    color: var(--color-font);
+    text-decoration: none;
 }
+
+ul li a:hover{
+    border: 2px solid var(--border-photo);
+    background-color: var(--background-hover);
+}
+
+
+
 
 

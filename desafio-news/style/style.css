@@ -35,6 +35,39 @@ header h1{
     margin-left: 5px;
 }
 
+main section.left{
+    margin-top: 92px;
+    margin-left: 36px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section.right{
+    display: flex;
+    align-items: end;
+}
+
+main section.left h2{
+    font-family: 'Work Sans', sans-serif;
+    color: var(--title-color);
+}
+
+main section.left h3{
+    font-family: 'League Spartan', sans-serif;
+    line-height: 2.3em;
+}
+
+main section.left p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.2em;
+}
+
+
+
+div.form{
+    margin-top: 50px;
+}
+
 div.form label{
     font-family: 'League Spartan', sans-serif;
     font-size: 1.5em;
@@ -69,4 +102,26 @@ div.form button figure{
     width: 24px;
     height: 24px;
     margin: auto;
+}
+
+div.read{
+    margin-top: 52px;
+}
+
+div.read a{
+    color: var(--bg-button-color);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+div.read img{
+    position: relative;
+    top: 6px;
+}
+
+div.read a:hover{
+    text-decoration: underline;
 }

@@ -5,5 +5,32 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    color: white;
 }
 
+:root{
+    --body-bg-color: #121214;
+    --text-color: #e1e1e6;
+    --title-color: #04d361;
+    --form-color: #a8a8a8;
+    --bg-button-color: #8257e5;
+
+}
+
+body{
+    background-color: var(--body-bg-color);
+}  
+
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+header h1{
+    font-size: 2.5em;
+    font-family: 'Work Sans', sans-serif;
+    color: var(--text-color);
+    margin-left: 5px;
+}
